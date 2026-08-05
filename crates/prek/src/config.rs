@@ -1363,7 +1363,7 @@ pub(crate) struct UpdateOptions {
 #[cfg_attr(
     feature = "schemars",
     derive(schemars::JsonSchema),
-    schemars(title = "prek.toml"),
+    schemars(title = "prek configuration"),
     schemars(description = "The configuration file for prek, a git hook manager written in Rust."),
     schemars(extend("$id" = "https://www.schemastore.org/prek.json")),
     schemars(extend("x-tombi-toml-version" = "v1.1.0")),

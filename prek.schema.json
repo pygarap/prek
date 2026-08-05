@@ -1,7 +1,7 @@
 {
   "$id": "https://www.schemastore.org/prek.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "prek.toml",
+  "title": "prek configuration",
   "description": "The configuration file for prek, a git hook manager written in Rust.",
   "type": "object",
   "properties": {

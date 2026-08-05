@@ -12,6 +12,7 @@ use crate::printer::Printer;
 
 static SAMPLE_CONFIG_YAML: &str = indoc::indoc! {"
 # See https://prek.j178.dev for more information.
+# $schema: https://www.schemastore.org/prek.json
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
